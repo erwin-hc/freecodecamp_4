@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=RocknRoll+One&display=swap');
+.root {
+  --font-header: font-family: 'Metal Mania', cursive;
+  --font-corpo: font-family: 'RocknRoll One', sans-serif;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+/* tamanho das fontes */
+p {
+  font-size: calc(12px + 1vw);
+}
+header {
+   font-size: calc(50px + 2vw);
+}
+/* tamanho das fontes */
+
+body, html {
+  margin: 0 auto;
+  font-family: 'RocknRoll One', sans-serif;
+}
+p:first-letter, code {
+  font-weight: 900;
+  font-size: calc(25px + 2vw);
+  display: block;
+  float: left;
+  margin: 10px 10px 5px 0;  
+  text-shadow: 1px 1px 1px #000;
+}
+.main-section { 
+  display: block;
+  margin: 20px auto;
+  max-width: 1100px;
+  width: 90%;
+ 	box-shadow: 2px 3px 20px black, 0 0 125px #8f5922 inset;
+	background: #fffef0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid green;
+  min-height: 100vh;  
+}
+article {
+  text-align: left;
+  line-height: 2;
+  text-shadow: 1px 1px 1px white;
+  padding: 50px;
+}
+.title {
+  font-family: 'Metal Mania', cursive;
+  text-shadow: 1px 1px 1px #fff;
+  text-align: center;
+  line-height: 2;
+}
+
+
+
+
+
