@@ -38,42 +38,52 @@ body, html {
   margin: 0;
   width: 100%;
   max-height: 150px;
-  background-color: #14213d;
+  background-color: rgba(255, 99, 71, 0.856);
   color: white;
-  border-bottom: 5px solid black;  
+  border-bottom: 5px solid #181818;  
   overflow: auto;
 }
 #header { 
   width: 100%;
   position: fixed;
-  background-color: black;
-  text-align: center;
+  background-color: #181818;
+  text-align: left;
+  padding-left: 1rem;
   letter-spacing: 5px;
   min-width: 200px;
   z-index: 999999; 
 }
-#navbar ul {
-  padding-top: 50px;
- 
+#navbar ul { 
+  padding-bottom: 2rem; 
 }
 #navbar li {
   position: relative;
-  padding: 10px;
-  
+  width: 98%;
+  padding-top: .5rem;
+  margin-left: .5rem;  
 }
 #navbar li a {
+  padding-left: 1rem;
+  font-weight: 900;
+  opacity:0.6;
+  width: 95%;
   display: block;
-  color: white;
+  color: #181818;
   cursor: pointer;
-  font-size:calc(16px + 2vw);
-  
+  font-size:calc(16px + 2vw);  
+  position: relative;
 }
 
+#navbar li a:hover {
+  opacity:1;
+background-color: hsla(0, 100%, 100%, 0.1);
+}
 .main-section code {
-  display: none;
+  display: flex;
+  font-size: 2rem;
 }
 
-p:first-letter, code {
+p:first-letter {
   font-weight: 900;
   font-size: calc(25px + 2vw);
   display: block;
@@ -95,7 +105,7 @@ p:first-letter, code {
 .container {
   display: block;
   min-height: 100vh;  
-  border: 2px solid black;
+  border: 2px solid #181818;
 }
 article {
   text-align: left;
@@ -111,7 +121,7 @@ article {
   text-align: left;
   letter-spacing: 10px;
   color: white;
-  background-color:black;
+  background-color:#181818;
   min-width: 300px;
 }
 
